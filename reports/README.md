@@ -7,3 +7,5 @@ Reporting pattern:
 Current:
 - `2026-02-26/AIML-Times-2026-02-26.raw.log`
 - `2026-02-26/AIML-Times-2026-02-26.md`
+- `2026-02-26/AIML-Times-2026-02-26-repo-bootstrap.raw.log`
+- `2026-02-26/AIML-Times-2026-02-26-repo-bootstrap.md`
