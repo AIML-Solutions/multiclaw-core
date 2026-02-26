@@ -1,0 +1,11 @@
+services:
+  lean:
+    image: quantconnect/lean:latest
+    container_name: multiclaw-lean
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./data:/Lean/Data
+      - ./results:/Lean/Results
+      - ./config:/Lean/Config
+    restart: "no"

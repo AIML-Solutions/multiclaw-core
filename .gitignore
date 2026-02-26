@@ -1,0 +1,17 @@
+# OS/editor
+.DS_Store
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+
+# Local secrets
+.env
+*.env
+
+# Report artifacts
+reports/**/*.raw.log
+
+# Temp
+tmp/
