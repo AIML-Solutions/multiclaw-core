@@ -1,10 +1,10 @@
-# MultiClaw
+# MultiClaw Core Docs
 
-Status: Drafting / Discovery
+Start here for architecture and operating policy.
 
-This project is co-designed with strict approval gating:
-- No implementation actions without explicit approval.
-- No unsolicited suggestions.
-
-Primary source of truth for scope and requirements (single file):
-- `docs/SCOPE.md`
+## Index
+- [SCOPE.md](SCOPE.md)
+- [REPO_TOPOLOGY.md](REPO_TOPOLOGY.md)
+- [AGENT_MODEL_ROUTING.md](AGENT_MODEL_ROUTING.md)
+- [LEAN_SETUP.md](LEAN_SETUP.md)
+- [ROADMAP.md](ROADMAP.md)
