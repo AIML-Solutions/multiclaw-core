@@ -10,7 +10,7 @@
 - Deep fallback: `openai-codex/gpt-5.3-codex`
 - Routine backup: `HF-Mistral-Backup` (`mistralai/Mistral-Nemo-Instruct-2407`) via Perplexica/OpenAI-compatible endpoint
 
-See central routing contract: `operations/model-routing-policy.yaml` (in workspace).
+Central routing contract: `operations/model-routing-policy.yaml` (workspace-relative).
 
 ## Team roles (initial)
 - quant-researcher
