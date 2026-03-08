@@ -6,8 +6,11 @@
 3. Hard per-task budget caps by agent role.
 
 ## Default policy
-- Primary: `openai/gpt-5.1-codex`
-- Fallback: `openai-codex/gpt-5.3-codex`
+- Primary (standard): `openai/gpt-5.1-codex`
+- Deep fallback: `openai-codex/gpt-5.3-codex`
+- Routine backup: `HF-Mistral-Backup` (`mistralai/Mistral-Nemo-Instruct-2407`) via Perplexica/OpenAI-compatible endpoint
+
+See central routing contract: `operations/model-routing-policy.yaml` (in workspace).
 
 ## Team roles (initial)
 - quant-researcher
